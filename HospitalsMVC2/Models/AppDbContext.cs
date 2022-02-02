@@ -9,6 +9,8 @@ namespace HospitalsMVC2.Models
 
         }
 
+        public DbSet<Hospital> Hospitals { get; set; }
+
     }
 
 }
